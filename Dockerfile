@@ -21,8 +21,5 @@ VOLUME /data
 # Set the entrypoint script as the Docker entrypoint
 ENTRYPOINT ["/Pyinstaller.sh"]
 
-CMD ["ls", "-R", "/app/*"]
-# Copy the contents of /app to /data
-CMD ["cp", "-R", "/app/*", "/data/"]
 
 
